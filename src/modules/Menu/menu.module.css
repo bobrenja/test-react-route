@@ -1,0 +1,26 @@
+.wraper {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.link {
+  display: flex;
+  border: 1px solid black;
+justify-content: center;  
+align-items: center;
+width: 75px;
+  height: 25px;
+  background-color: rgb(131, 226, 43);
+  text-decoration: none;
+}
+
+.link.active {
+    color: #ffffff;
+    background-color: rgb(138, 138, 239);
+}
